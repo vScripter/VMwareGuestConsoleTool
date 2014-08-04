@@ -1,42 +1,34 @@
 <!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>VMware Guest Console Tool by vN3rd</title>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>VMware Guest Console Tool</h1>
+        <p>GUI Tool to launch the console of a powered on VM Guest using PowerCLI cmdlets</p>
 
-  <title>VMware Guest Console Tool</title>
-  <meta name="description" content="GUI Tool to launch the console of a powered on VM Guest using PowerCLI cmdlets">
+        <p class="view"><a href="https://github.com/vN3rd/VMwareGuestConsoleTool">View the Project on GitHub <small>vN3rd/VMwareGuestConsoleTool</small></a></p>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-</head>
-
-<body>
-
-  <div class="wrapper">
-    <header>
-      <h1 class="title">VMware Guest Console Tool</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">GUI Tool to launch the console of a powered on VM Guest using PowerCLI cmdlets</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/vN3rd/VMwareGuestConsoleTool/releases/download/v1.1.0/VMwareGuestConsoleTool.exe" class="download-button tar"><span>Download .exe</span></a>
-          <a href="https://github.com/vN3rd/VMwareGuestConsoleTool/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/vN3rd/VMwareGuestConsoleTool" class="code">View VMware Guest Console Tool on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
+        <ul>
+          <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
 <a name="vmware-guest-console-tool" class="anchor" href="#vmware-guest-console-tool"><span class="octicon octicon-link"></span></a>VMware Guest Console Tool</h1>
 
 <p><img src="https://cloud.githubusercontent.com/assets/3757585/3740269/70204e9e-1753-11e4-947a-f7a46a209e4e.JPG" alt="vmcontool"></p>
@@ -46,6 +38,8 @@
 <p>Currently, only powered on guests are included, although, if requested, a version to include all guests can be compiled. This takes into account only reporting on active VMs and not VMs that may be part of SRM, Veaam B&amp;R, etc.</p>
 
 <p>Current Version - 1.1.0</p>
+
+<p>[Current Releases: <a href="http://bit.ly/VMGCTReleases">http://bit.ly/VMGCTReleases</a>]</p>
 
 <p>Updates:</p>
 
@@ -63,27 +57,14 @@
 <li>VMware Client Integration Plugin must be installed</li>
 <li>Guest Console privileges to at least 1 VM managed by a reachable vCenter Server</li>
 </ul>
-        </article>
-      </div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/vN3rd">vN3rd</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/vN3rd" class="avatar"><img src="https://avatars2.githubusercontent.com/u/3757585?v=1&amp;s=60" width="48" height="48"></a> <a href="https://github.com/vN3rd">vN3rd</a> maintains <a href="https://github.com/vN3rd/VMwareGuestConsoleTool">VMware Guest Console Tool</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/vN3rd/VMwareGuestConsoleTool/tarball/master" class="tar">tar</a><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-            <script type="text/javascript">
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -94,5 +75,5 @@
             } catch(err) {}
           </script>
 
-</body>
+  </body>
 </html>
