@@ -9,4 +9,4 @@ The source form file has been published. The application was written and compile
 
 Check out the project page for more information and a download link to the most current build.
 
-http://vn3rd.github.io/VMwareGuestConsoleTool/
+http://bit.ly/VMGCT
