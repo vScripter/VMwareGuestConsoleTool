@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>VMware Guest Console Tool by vN3rd</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -17,10 +16,7 @@
       <header>
         <h1>VMware Guest Console Tool</h1>
         <p>GUI Tool to launch the console of a powered on VM Guest using PowerCLI cmdlets</p>
-
         <p class="view"><a href="https://github.com/vN3rd/VMwareGuestConsoleTool">View the Project on GitHub <small>vN3rd/VMwareGuestConsoleTool</small></a></p>
-
-
         <ul>
           <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/zipball/master">Download <strong>ZIP File</strong></a></li>
           <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/releases/download/v1.2.0/VMwareGuestConsoleTool.exe">Download <strong>.EXE File</strong></a></li>
@@ -28,43 +24,38 @@
         </ul>
       </header>
       <section>
-       <!-- <h1>
-<a name="vmware-guest-console-tool" class="anchor" href="#vmware-guest-console-tool"><span class="octicon octicon-link"></span></a>VMware Guest Console Tool</h1> -->
+        <p><img src="https://cloud.githubusercontent.com/assets/3757585/4085881/0ff9573c-2f26-11e4-8f82-ee634c69004f.PNG" alt="vgctv1 1"></p>
+          <p><img src="https://cloud.githubusercontent.com/assets/3757585/4085882/13dcad72-2f26-11e4-8768-a7a451ffa2b4.PNG" alt="vgctv1 1"></p>
+          <p>Currently, only powered on guests are included, although, if requested, a version to include all guests can be compiled. This takes into account only reporting on active VMs and not VMs that may be part of SRM, Veaam B&amp;R, etc.</p>
 
-<p><img src="https://cloud.githubusercontent.com/assets/3757585/4085881/0ff9573c-2f26-11e4-8f82-ee634c69004f.PNG" alt="vgctv1 1"></p>
-<p><img src="https://cloud.githubusercontent.com/assets/3757585/4085882/13dcad72-2f26-11e4-8768-a7a451ffa2b4.PNG" alt="vgctv1 1"></p>
-<p>Currently, only powered on guests are included, although, if requested, a version to include all guests can be compiled. This takes into account only reporting on active VMs and not VMs that may be part of SRM, Veaam B&amp;R, etc.</p>
+        <p>Current Version - 1.2.0</p>
 
-<p>Current Version - 1.2.0</p>
+        <p> v1.2.0 Updates:</p>
+          <u1>
+            <li> Added 'Web Client' button which launches the full web client of the connected VI server
+          </u1>
 
-<p> v1.2.0 Updates:</p>
-<u1>
-  <li> Added 'Web Client' button which launches the full web client of the connected VI server
-</u1>
+        <p>v1.1.1 Updates:</p>
+          <ul>
+            <li>Cleaned up naming</li>
+          </ul>
 
-<p>v1.1.1 Updates:</p>
+        <p>v1.1.0 Updates:</p>
+          <ul>
+            <li>Added connected server name in form window</li>
+            <li>Now allows multiple instances of the application to be launched</li>
+            <li>Added message once connected that reminds the user to select a VM from the drop-down VM list</li>
+            <li>Minor code and variable cleanup</li>
+          </ul>
 
-<ul>
-<li>Cleaned up naming</li>
-</ul>
-
-<p>v1.1.0 Updates:</p>
-
-<ul>
-<li>Added connected server name in form window</li>
-<li>Now allows multiple instances of the application to be launched</li>
-<li>Added message once connected that reminds the user to select a VM from the drop-down VM list</li>
-<li>Minor code and variable cleanup</li>
-</ul>
-<p>Minimum Requirements:</p>
-
-<ul>
-<li><a href="https://my.vmware.com/web/vmware/details?downloadGroup=PCLI550R2&productId=353">PowerCLI 5.5</a></li>
-<li><a href="http://www.microsoft.com/en-us/download/details.aspx?id=17851">.NET Framework 4.0</a></li>
-<li><a href="http://www.microsoft.com/en-us/download/details.aspx?id=34595">PowerShell 3.0</a></li>
-<li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/blob/master/Prereq/VMware-ClientIntegrationPlugin-5.5.0.zip">VMware Client Integration Plugin must be installed</a></li>
-<li>Guest Console privileges to at least 1 VM managed by a reachable vCenter Server</li>
-</ul>
+        <p>Minimum Requirements:</p>
+          <ul>
+            <li><a href="https://my.vmware.com/web/vmware/details?downloadGroup=PCLI550R2&productId=353">PowerCLI 5.5</a></li>
+            <li><a href="http://www.microsoft.com/en-us/download/details.aspx?id=17851">.NET Framework 4.0</a></li>
+            <li><a href="http://www.microsoft.com/en-us/download/details.aspx?id=34595">PowerShell 3.0</a></li>
+            <li><a href="https://github.com/vN3rd/VMwareGuestConsoleTool/blob/master/Prereq/VMware-ClientIntegrationPlugin-5.5.0.zip">VMware Client Integration Plugin must be installed</a></li>
+            <li>Guest Console privileges to at least 1 VM managed by a reachable vCenter Server</li>
+          </ul>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/vN3rd">vN3rd</a></p>
@@ -72,17 +63,16 @@
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-53476042-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        try {
+          var pageTracker = _gat._getTracker("UA-53476042-1");
+          pageTracker._trackPageview();
+          } catch(err) {}
+      </script>
   </body>
 </html>
 
