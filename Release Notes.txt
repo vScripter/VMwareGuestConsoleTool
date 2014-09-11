@@ -4,21 +4,35 @@
 #																#
 #===============================================================#
 
+v1.2.1	9/11/14		K. Kirkpatrick
+=================================================
+[+]	Added support & build checking for PowerCLI 5.8 R1
+
+
+v1.2.0	8/28/14		K. Kirkpatrick
+=================================================
+[+]	Added 'Web Client' button which allows a user to launch the full web client of the connect VI server
+
+
+v1.1.1	8/11/14		K. Kirkpatrick
+=================================================
+[+]	Fixed form and title naming
+
 
 v1.1.0	7/31/14		K. Kirkpatrick
-----------------------------------------------------------------------------------------------------------------
-<>	Added connected server in form window
-<>	Now allows multiple instances
-<> 	Added message once connected that reminds the user to select a VM from the dropdown VM list
-<>	Minor code and variable cleanup
+=================================================
+[+]	Added connected server in form window
+[+]	Now allows multiple instances
+[+] Added message once connected that reminds the user to select a VM from the dropdown VM list
+[+]	Minor code and variable cleanup
 
 
 v1.0.1	7/30/14		K. Kirkpatrick
-----------------------------------------------------------------------------------------------------------------
-<>	General code cleanup; added comments to code
+=================================================
+[+]	General code cleanup; added comments to code
 
 
 v1.0.0	7/29/14		K. Kirkpatrick
-----------------------------------------------------------------------------------------------------------------
-<>	Created
+=================================================
+[+]	Created
 
