@@ -2507,7 +2507,7 @@ $formVMGuestConsoleTool_Load = {
 	# Perform actions upon form load
 	
 	# Set version
-	$lbVersion.Text = "v1.2.0"
+	$lbVersion.Text = "v1.2.1"
 	
 	# Clear/Set label text and disable/hide buttons
 	$StatusBar.Text = "Not Connected"
@@ -2533,10 +2533,6 @@ $btnConnectViServer_Click = {
 		# Call/clear variables
 		$colPoweredOnGuests = @()
 		$cbxVmList.Items.Clear()
-		<#
-		$btnOpenConsole.Enabled = $false
-		$cbxVmList.Enabled = $false
-		#>
 		
 		# Set Status bar and label text
 		$lbStatus.ForeColor = 'Green'
@@ -2545,7 +2541,7 @@ $btnConnectViServer_Click = {
 		
 		# Check PowerCLI Version and save to variable; check to see if the Client Itegration Plugin has been installed on x86/x64 Systems and
 		# assign bool value (default output of Test-Path is $true or $false)
-		$PowerCliVersion = Get-PowerCLIVersion | Select-Object UserFriendlyVersion
+		$PowerCliVersion = Get-PowerCLIVersion | Select-Object -ExpandProperty Build
 		$PluginCheck = Test-Path 'C:\Program Files\VMware\Client Integration Plug*'
 		$PluginCheckx64 = Test-Path 'C:\Program Files (x86)\VMware\Client Integration Plug*'
 		
@@ -2555,7 +2551,7 @@ $btnConnectViServer_Click = {
 		{
 			Throw "Client Integration Plugin is not installed"
 			
-		} elseif (!($PowerCliVersion -like "*5.5*"))
+		} elseif (!(($PowerCliVersion -like '1295336') -or ($PowerCliVersion -like '1931983') -or ($PowerCliVersion -like '2057893') -or ($PowerCliVersion -like '1649237')))
 		{
 			Throw "PowerCLI is too old. PowerCLI 5.5 is the minimum supported version"
 		} else
