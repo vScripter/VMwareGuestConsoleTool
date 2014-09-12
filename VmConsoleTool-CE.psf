@@ -2475,6 +2475,7 @@ Updates:		v1.0.0	7/29/14		K. Kirkpatrick		[+] Created
 				v1.1.1	8/11/14		K. Kirkpatrick		Fixed name labels
 				v1.2.0	8/28/14		K. Kirkpatrick		[+] 'Web Client' button which launches the vSphere Web Client to the connected VI server
 														[+] Tool tips on 'Web Client', 'Open Console' & VM Guest list drop down
+				v1.2.1	8/10/14		K. Kirkpatrick		[+] Added build lookup and support for PowerCLI v 5.8 R1
 
 ===============================================================================================================================================
 	
@@ -2547,6 +2548,12 @@ $btnConnectViServer_Click = {
 		
 		# Validate Plugin and PowerCLI version; throw errors if not met. If prerequisites are met, attempt to connect to the vCenter Server
 		# name specified in the text box ($txbViServer)
+		<# PowerCLI build number reference
+			1295336 - 5.5 R1
+			1931983 - 5.5 R1 P1
+			1649237 - 5.5 R2
+			2057893 - 5.8 R1 
+		#>
 		if ($PluginCheck -eq $false -and $PluginCheckx64 -eq $false)
 		{
 			Throw "Client Integration Plugin is not installed"
