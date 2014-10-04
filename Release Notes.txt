@@ -1,8 +1,13 @@
 #===============================================================#
-#																#
-# VMware Guest Console Tool - Release Notes 					#
-#																#
+#																                                #
+# VMware Guest Console Tool - Release Notes 					          #
+#																                                 #
 #===============================================================#
+
+v1.3.0	10/1/14		K. Kirkpatrick
+=================================================
+[+]	Added 'Refresh' button which allows you to refresh the list of powered on guests, without having to disconnect and re-connect
+
 
 v1.2.1	9/11/14		K. Kirkpatrick
 =================================================
