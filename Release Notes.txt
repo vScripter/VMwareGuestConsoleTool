@@ -1,7 +1,7 @@
 #===============================================================#
-#																                                #
-# VMware Guest Console Tool - Release Notes 					          #
-#																                                 #
+#																                                
+# VMware Guest Console Tool - Release Notes 					          
+#																                               
 #===============================================================#
 
 v1.3.0	10/1/14		K. Kirkpatrick
