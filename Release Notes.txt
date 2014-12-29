@@ -4,6 +4,10 @@
 #																                               
 #===============================================================#
 
+v1.4.0	12/29/14	K. Kirkpatrick
+=================================================
+[+]	Refreshed User Interface
+
 v1.3.0	10/1/14		K. Kirkpatrick
 =================================================
 [+]	Added 'Refresh' button which allows you to refresh the list of powered on guests, without having to disconnect and re-connect
