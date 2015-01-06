@@ -1,6 +1,8 @@
 VMware Guest Console Tool
 ======================
 
+![VMGCT](https://github.com/vN3rd/VMwareGuestConsoleTool/raw/master/VMGCTv1.4.0.PNG)
+
 GUI Tool to launch the console of a powered on VM Guest.
 
 Currently, only powered on guests are included, although, if requested, a version to include all guests can be compiled. This takes into account only reporting on active VMs and not VMs that may be part of SRM, Veaam B&R, etc.
