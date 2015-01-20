@@ -13,12 +13,12 @@ Check out the project page for more information and a download link to the most 
 
 Thanks for all your support!
 
-http://bit.ly/VMGCT
+http://bit.ly/VMwareGCT
 
 Getting Started
 ======================
 
-Getting going is pretty straight forward; just visit http://bit.ly/VMGCT and either download the .ZIP archive that contains all of the source code and binary or just download the binary (.EXE).
+Getting going is pretty straight forward; just visit http://bit.ly/VMwareGCT and either download the .ZIP archive that contains all of the source code and binary or just download the binary (.EXE).
 
 If you receive an error that the app has crashed as soon as you attemtp to open it, ensure that you have all of the prerequisites in place. The most common time I see this is when PowerShell is not running a supported version (3.0, or newer).
 
