@@ -1,7 +1,7 @@
 VMware Guest Console Tool
 ======================
 
-![VMGCT](https://github.com/vN3rd/VMwareGuestConsoleTool/raw/master/VMGCTv1.4.0.PNG)
+![VMGCT](https://github.com/vScripter/VMwareGuestConsoleTool/raw/master/VMGCTv1.4.0.PNG)
 
 GUI Tool to launch the console of a powered on VM Guest.
 
